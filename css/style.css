@@ -92,9 +92,6 @@ figure {
 }
 figcaption {
   margin-top: 20px;
-  margin-top: 20px;
-  margin-top: 20px;
-  margin-top: 20px;
 }
 .page-3-img-catalog {
   width: 670px;
@@ -144,7 +141,7 @@ footer {
   padding-left: 35px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px),
+@media only screen and (min-width: 320px) and (max-width: 680px),
   (orientation: portrait) {
   .page-2-img-catalog {
     width: 100%;
