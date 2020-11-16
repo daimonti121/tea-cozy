@@ -79,6 +79,7 @@ body {
 .page-2-img-catalog {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 figure img {
   width: 300px;
@@ -90,7 +91,10 @@ figure {
   margin: 10px auto;
 }
 figcaption {
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-top: 20px;
+  margin-top: 20px;
+  margin-top: 20px;
 }
 .page-3-img-catalog {
   width: 670px;
@@ -138,4 +142,25 @@ figcaption {
 }
 footer {
   padding-left: 35px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px),
+  (orientation: portrait) {
+  .page-2-img-catalog {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .page-2-title {
+    position: relative;
+    left: 100px;
+  }
+  figure {
+    position: relative;
+    left: 90px;
+  }
+  .page-contact {
+    position: relative;
+    left: 420px;
+    top: 10px;
+  }
 }
